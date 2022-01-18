@@ -1,0 +1,10 @@
+# TrafficClassLimit
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**type** | **str** | The type of limit to apply. * &#x60;aggregateBandwidthIn&#x60; - The maximum combined upload bandwidth (for example, PUT requests) in bytes/second of all concurrent requests that match this policy. * &#x60;aggregateBandwidthOut&#x60; - The maximum combined download bandwidth (for example, GET requests) in bytes/second of all concurrent requests that match this policy. * &#x60;concurrentReadRequests&#x60; - The maximum number of download requests (for example, GET) that can be in progress at the same time. Idle connections do not count against this limit. * &#x60;concurrentWriteRequests&#x60; - The maximum number of upload requests (for example, PUT) that can be in progress at the same time. Idle connections do not count against this limit. * &#x60;readRequestRate&#x60; - The maximum number of download requests (for example, GET) that can be started each second. A burst of requests is allowed for policies that have been idle for some time. * &#x60;writeRequestRate&#x60; - The maximum number of download requests (for example, PUT) that can be started each second. A burst of requests is allowed for policies that have been idle for some time. * &#x60;perRequestBandwidthIn&#x60; - The maximum upload bandwidth (for example, PUT requests) in bytes/second allowed for each request that matches this policy. * &#x60;perRequestBandwidthOut&#x60; - The maximum download bandwidth (for example, GET requests) in bytes/second allowed for each request that matches this policy. __Warning:__ If aggregateBandwidth limits exist in any policy, load balancer performance might be degraded for all requests, including those that do not match any policy. __Note:__ aggregateBandwidth and perRequestBandwidth types are mutually exclusive across all policies.  | 
+**value** | **float** | The upper bounding value of the limit | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
