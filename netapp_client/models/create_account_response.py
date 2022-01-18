@@ -41,11 +41,12 @@ class CreateAccountResponse(Response):
         attribute_map.update(Response.attribute_map)
 
     def __init__(self, data=None, *args, **kwargs):  # noqa: E501
+        Response.__init__(self, *args, **kwargs)
         """CreateAccountResponse - a model defined in Swagger"""  # noqa: E501
         self._data = None
         self.discriminator = None
         self.data = data
-        Response.__init__(self, *args, **kwargs)
+        
 
     @property
     def data(self):
