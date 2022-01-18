@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.object_metadata_get_response import ObjectMetadataGetResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import netapp_client
+from netapp_client.models.object_metadata_get_response import ObjectMetadataGetResponse  # noqa: E501
+from netapp_client.rest import ApiException
 
 
 class TestObjectMetadataGetResponse(unittest.TestCase):

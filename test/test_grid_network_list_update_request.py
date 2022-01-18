@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.grid_network_list_update_request import GridNetworkListUpdateRequest  # noqa: E501
-from swagger_client.rest import ApiException
+import netapp_client
+from netapp_client.models.grid_network_list_update_request import GridNetworkListUpdateRequest  # noqa: E501
+from netapp_client.rest import ApiException
 
 
 class TestGridNetworkListUpdateRequest(unittest.TestCase):

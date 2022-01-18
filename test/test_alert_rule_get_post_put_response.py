@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.alert_rule_get_post_put_response import AlertRuleGetPostPutResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import netapp_client
+from netapp_client.models.alert_rule_get_post_put_response import AlertRuleGetPostPutResponse  # noqa: E501
+from netapp_client.rest import ApiException
 
 
 class TestAlertRuleGetPostPutResponse(unittest.TestCase):

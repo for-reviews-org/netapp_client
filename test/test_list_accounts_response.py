@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.list_accounts_response import ListAccountsResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import netapp_client
+from netapp_client.models.list_accounts_response import ListAccountsResponse  # noqa: E501
+from netapp_client.rest import ApiException
 
 
 class TestListAccountsResponse(unittest.TestCase):

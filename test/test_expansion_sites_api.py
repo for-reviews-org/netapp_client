@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.expansion_sites_api import ExpansionSitesApi  # noqa: E501
-from swagger_client.rest import ApiException
+import netapp_client
+from netapp_client.api.expansion_sites_api import ExpansionSitesApi  # noqa: E501
+from netapp_client.rest import ApiException
 
 
 class TestExpansionSitesApi(unittest.TestCase):

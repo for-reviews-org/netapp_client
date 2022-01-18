@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.config_management_get_put_response import ConfigManagementGetPutResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import netapp_client
+from netapp_client.models.config_management_get_put_response import ConfigManagementGetPutResponse  # noqa: E501
+from netapp_client.rest import ApiException
 
 
 class TestConfigManagementGetPutResponse(unittest.TestCase):

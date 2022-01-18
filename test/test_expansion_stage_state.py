@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.expansion_stage_state import ExpansionStageState  # noqa: E501
-from swagger_client.rest import ApiException
+import netapp_client
+from netapp_client.models.expansion_stage_state import ExpansionStageState  # noqa: E501
+from netapp_client.rest import ApiException
 
 
 class TestExpansionStageState(unittest.TestCase):

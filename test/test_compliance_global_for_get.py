@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.compliance_global_for_get import ComplianceGlobalForGet  # noqa: E501
-from swagger_client.rest import ApiException
+import netapp_client
+from netapp_client.models.compliance_global_for_get import ComplianceGlobalForGet  # noqa: E501
+from netapp_client.rest import ApiException
 
 
 class TestComplianceGlobalForGet(unittest.TestCase):

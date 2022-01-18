@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.logged_header import LoggedHeader  # noqa: E501
-from swagger_client.rest import ApiException
+import netapp_client
+from netapp_client.models.logged_header import LoggedHeader  # noqa: E501
+from netapp_client.rest import ApiException
 
 
 class TestLoggedHeader(unittest.TestCase):
