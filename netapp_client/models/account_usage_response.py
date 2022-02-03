@@ -42,11 +42,11 @@ class AccountUsageResponse(Response):
 
     def __init__(self, data=None, *args, **kwargs):  # noqa: E501
         """AccountUsageResponse - a model defined in Swagger"""  # noqa: E501
+        Response.__init__(self, *args, **kwargs)
         self._data = None
         self.discriminator = None
         if data is not None:
             self.data = data
-        Response.__init__(self, *args, **kwargs)
 
     @property
     def data(self):
